@@ -1,3 +1,17 @@
+//Intro Pictures
+$(function () {
+
+  //zoomin
+   $(".mygfphotos").mouseenter(function(){
+    $(this).removeClass("w-75").addClass("w-100 p-3");
+  })
+   //zoomout
+   $(".mygfphotos").mouseleave(function(){
+   $(this).removeClass("w-100").addClass("w-75");
+  })
+
+});
+
 $(function () {
 
   $("#seemore1").click(()=>{
@@ -31,4 +45,5 @@ $(function () {
     $(this).stop().fadeTo(500, 0.7)
   })
 });
+
 

@@ -13,23 +13,50 @@ $(function () {
 });
 
 
+     // Slide element up to hide (over 2s)
+  //$(".blue-box").slideUp(2000);
+
+  // Slide back down to show element
+  //$(".blue-box").slideDown(2000);
+
 //see more
 $(function () {
 
-  $("#seemore1").click(()=>{
-    $("#start").slideToggle(1000);
+  $("#seemore1").click(() => {
+      $("#start").slideToggle(1000, function () {
+          // Check if the element is visible after toggle
+          if ($(this).is(":visible")) {
+              $("#seemore1").text("See less");
+          } else {
+              $("#seemore1").text("See more");
+          }
+      });
+  });
 
-  })
-  $("#seemore2").click(()=>{
-      $("#where").slideToggle(1000);
+  $("#seemore2").click(() => {
+      $("#where").slideToggle(1000, function () {
+          // Check if the element is visible after toggle
+          if ($(this).is(":visible")) {
+              $("#seemore2").text("See less");
+          } else {
+              $("#seemore2").text("See more");
+          }
+      });
+  });
 
-  })
-  $("#seemore3").click(()=>{
-      $("#love").slideToggle(1000);
-
-  })
+  $("#seemore3").click(() => {
+      $("#love").slideToggle(1000, function () {
+          // Check if the element is visible after toggle
+          if ($(this).is(":visible")) {
+              $("#seemore3").text("See less");
+          } else {
+              $("#seemore3").text("See more");
+          }
+      });
+  });
 
 });
+
 
 
 //fadeIn when hovered

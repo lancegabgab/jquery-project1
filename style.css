@@ -13,10 +13,7 @@ body {
   color: black;
 }
 
-#met{
-  display:none;
-}
 
-#start{
+#start, #where, #love{
   display:none;
 }

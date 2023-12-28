@@ -12,25 +12,25 @@ $(function () {
 
 });
 
+
+//see more
 $(function () {
 
   $("#seemore1").click(()=>{
     $("#start").slideToggle(1000);
 
   })
+  $("#seemore2").click(()=>{
+      $("#where").slideToggle(1000);
 
-});
-
-
-
-$(function () {
-
-   $("#seemore2").click(()=>{
-      $("#met").slideToggle(1000);
+  })
+  $("#seemore3").click(()=>{
+      $("#love").slideToggle(1000);
 
   })
 
 });
+
 
 //fadeIn when hovered
 $(function () {

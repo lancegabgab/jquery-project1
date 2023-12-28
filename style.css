@@ -2,7 +2,7 @@
 body {
   font-size: 16px;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif; 
-  background-image: url("./images/coverphotos/rose.jpeg");
+  background-image: url("./images/coverphotos/bubbles.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -10,6 +10,6 @@ body {
 *{
   font-family: 'Luckiest Guy', cursive;
   text-align: center;
-  color: white;
+  color: black;
 }
 

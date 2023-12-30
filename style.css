@@ -17,3 +17,10 @@ body {
 #start, #where, #love{
   display:none;
 }
+
+.custom-card {
+      background: rgba(255, 255, 255, 0.5); /* Background color with 50% opacity */
+}
+.text-inside {
+  opacity: 1; 
+}
